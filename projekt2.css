@@ -49,6 +49,7 @@ button:hover{
     border-radius: 4px;
     width: 350px;
     height: 200px;
+    cursor: pointer;
 }
 #titleMatrix {
     font-size: 30px;
@@ -68,6 +69,7 @@ button:hover{
     border-radius: 4px;
     width: 350px;
     height: 200px;
+    cursor: pointer;
 }
 #titleRezept {
     font-size: 30px;
