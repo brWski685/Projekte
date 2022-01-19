@@ -1,0 +1,83 @@
+/* basics */
+body {
+    margin: 20px;
+    font-family: 'Enriqueta', arial, serif;
+    position: relative;
+}
+.header{
+    height: 80px;
+    display: flex;
+}
+.title{
+    font-size: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.button {
+    font-size: 25px;
+    background-color: white;
+    border: solid 0px;
+    color: rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+}
+.buttonClass {
+    display: flex;
+    position:absolute;
+    right: 20px;
+    top: 10px;
+}
+
+ /* container1 */
+.container1 {
+    border: solid 1px black;
+    width: 100%;
+    height: 900px;
+    background-color: #bfcfdc44;
+}
+.projekte {
+    margin: 20px;
+    display: flex;
+}
+.matrix {
+    background-color: #bfcfdc69;
+    margin: 5px;
+    border: solid 1px rgba(78, 76, 76, 0.24);
+    border-radius: 4px;
+    width: 350px;
+    height: 200px;
+}
+#titleMatrix {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+.matrix:hover {
+    border: solid 1px rgba(78, 76, 76, 0.596);
+    background-color: #bfcfdc77;}
+.rezepte {
+    background-color: #bfcfdc69;
+    margin: 5px;
+    border: solid 1px rgba(78, 76, 76, 0.24);
+    border-radius: 4px;
+    width: 350px;
+    height: 200px;
+}
+#titleRezept {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+.rezepte:hover {
+    border: solid 1px rgba(78, 76, 76, 0.596);
+    background-color: #bfcfdc77;
+}
