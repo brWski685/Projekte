@@ -33,7 +33,7 @@ button:hover{
 
  /* container1 */
 .container1 {
-    border: solid 1px black;
+    border: solid 1px rgba(0, 0, 0, 0.068);
     width: 100%;
     height: 900px;
     background-color: #bfcfdc44;
